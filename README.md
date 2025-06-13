@@ -11,8 +11,8 @@ Also, there's this guy called meew0. He hates eyes. He uses the light theme. ¯\
 - `s` => skip the current song
 - `l` => toggle light theme
 - `v` => toggle visualizer
-- `m` => increment meew0 mode
+- `m` => increment sparrow mode
 - `n` => toggle nyan cat mode
 - `p` => toggle party mode
 - `up arrow` => increment audio volume
-- `down arrow` => decrement  audio volume
+- `down arrow` => decrement audio volume
