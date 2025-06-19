@@ -4,7 +4,7 @@
 
 This is a fork of https://takeb1nzyto.space, a meme made about b1nzy, who is an ex-[Discord](https://discordapp.com) developer that likes ratelimiting people.
 
-Also, there's this guy called meew0. He hates eyes. He uses the light theme. ¯\\\_(ツ)_/¯
+Also, I have another cat named Sparrow. She can be in the background with Sparrow mode. It turns on the light theme. ¯\\\_(ツ)_/¯
 
 ## Keyboard shortcuts
 
