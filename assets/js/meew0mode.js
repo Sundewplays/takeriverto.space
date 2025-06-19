@@ -30,7 +30,7 @@ function incrementMeew0Mode() {
     if (typeof keyword !== 'string' || keyword.toLowerCase() !== config.meew0ModeKeyword) {
       meew0Mode.blocked = true;
       Logger.info('[meew0 mode] Meew0 mode ratelimited after ' + meew0Mode.count + ' increments.');
-      return meewButton.innerText = 'meew0 mode ratelimited x' + meew0Mode.count;
+      return meewButton.innerText = 'sparrow mode ratelimited x' + meew0Mode.count;
     }
   }
 
