@@ -25,7 +25,7 @@ function incrementMeew0Mode() {
   if (meew0Mode.count > 4999 && !meew0Mode.askedBlock) {
     meew0Mode.askedBlock = true;
     Logger.info('[meew0 mode] Asking to ratelimit meew0 mode.');
-    var keyword = prompt("sparrow mode has a limit of 5,000 presses per session.\n\nWe can disable this ratelimit for you (be careful, bluescreens have happened in the past because people have reached high sparrow mode multipliers), just enter the secret word \"" + config.meew0ModeKeyword + "\" into the text box below and click \"OK\".\n\nIf you want to disable the sparrow mode button (and 'm' keybind), just click \"Cancel\".");
+    var keyword = prompt("sparrow mode has a limit of 5,000 presses per session.\n\nWe can disable this ratelimit for you (be careful, bluescreens and kernel panics have happened in the past because people have reached high sparrow mode multipliers), just enter the secret word \"" + config.meew0ModeKeyword + "\" into the text box below and click \"OK\".\n\nIf you want to disable the sparrow mode button (and 'm' keybind), just click \"Cancel\".");
 
     if (typeof keyword !== 'string' || keyword.toLowerCase() !== config.meew0ModeKeyword) {
       meew0Mode.blocked = true;
